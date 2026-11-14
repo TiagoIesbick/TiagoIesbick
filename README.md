@@ -1,25 +1,33 @@
-# Tiago Iesbick
+<img src="assets/header.svg" width="100%" alt="Tiago Iesbick — Technology Lead and Full-Stack Engineer. AI agents and data systems for finance and public pensions. 31,000+ pension fund members, R$5.5B in assets under management, 15+ years across software and finance.">
 
-**Technology Lead & Full-Stack Engineer.** I build AI agents and data systems for finance and public pensions.
+<p align="center">
+  <a href="https://www.linkedin.com/in/tiago-iesbick"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:tiagoiesbick@gmail.com"><b>tiagoiesbick@gmail.com</b></a>
+  &nbsp;·&nbsp;
+  Porto Alegre, Brazil (UTC-3)
+  &nbsp;·&nbsp;
+  Open to senior remote roles
+</p>
 
-- Leading technology at a public pension fund with 31,000+ members and R$5.5B in assets.
-- 15+ years across software engineering and finance. Formerly Chief Investment Economist, managing a R$1.3B portfolio.
-- Shipping production systems remotely for international clients, from Porto Alegre, Brazil (UTC-3).
+I lead technology at a public pension fund in Brazil, where I replace legacy systems and put AI agents into real operations. Before engineering full-time, I managed a R$1.3B investment portfolio as Chief Investment Economist, so I write software with budgets, risk and compliance in mind.
 
-## Selected work
+### In production
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [vita-health](https://github.com/TiagoIesbick/vita-health) | Shares medical records through time-limited access tokens, with AI insights and real-time streaming | Python, GraphQL, React, Redis, Elasticsearch, Docker |
-| [langgraph-sidekick](https://github.com/TiagoIesbick/langgraph-sidekick) | Multi-agent assistant with conditional routing and human approval for side effects | LangGraph, Playwright, SQLite |
-| [deep-research-agents](https://github.com/TiagoIesbick/deep-research-agents) | Plans web searches, writes a research report and delivers it by email | OpenAI Agents SDK |
-| [software-engineering-crew](https://github.com/TiagoIesbick/software-engineering-crew) | Agent team that designs, implements and tests a backend | CrewAI |
-| UXO Grocery ([live](https://uxo.hk)) | Production e-commerce platform for a Hong Kong grocery brand | Django, AWS, Stripe, Docker |
+Most of my work runs inside organizations and is not on GitHub.
 
-## Stack
+- **Payroll integration.** Cut payroll processing for about 30,000 employees from hours to seconds, with Python middleware between legacy HR and accounting systems.<br>`Python` `Docker` `GCP Cloud Run` `pytest`
+- **AI pension assistant.** Real-time conversational assistant for 30,000+ pension fund members, with streaming answers grounded in legislation.<br>`GraphQL subscriptions` `WebSockets` `Redis Pub/Sub` `React`
+- **[UXO Grocery](https://uxo.hk).** E-commerce platform for a Hong Kong grocery brand, designed, built and deployed remotely from Brazil.<br>`Django` `AWS` `Stripe` `Docker` `GitHub Actions`
 
-Python, TypeScript, SQL. Django, FastAPI, GraphQL, React. PostgreSQL, Oracle, SQL Server, Redis. Docker, AWS, GCP. Claude Agent SDK, LangGraph, MCP.
+### Open source
 
-## Contact
+The repositories pinned below are my own. I also have three projects merged into [ed-donner/agents](https://github.com/ed-donner/agents/pulls?q=is%3Apr+author%3ATiagoIesbick+is%3Amerged), the companion repository of a widely followed agentic AI course.
 
-[LinkedIn](https://www.linkedin.com/in/tiago-iesbick) or tiagoiesbick@gmail.com. Open to senior remote roles (US, EU and Canada time zones).
+### Stack
+
+**AI** &nbsp; `Claude Agent SDK` `MCP` `LangGraph` `OpenAI Agents SDK` `CrewAI`<br>
+**Backend** &nbsp; `Python` `Django` `FastAPI` `GraphQL` `Node.js`<br>
+**Frontend** &nbsp; `TypeScript` `React` `Next.js`<br>
+**Data** &nbsp; `PostgreSQL` `Oracle` `SQL Server` `Redis` `Elasticsearch` `pandas`<br>
+**Infra** &nbsp; `Docker` `AWS` `GCP` `GitHub Actions`
